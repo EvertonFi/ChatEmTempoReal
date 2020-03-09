@@ -17,7 +17,7 @@
     </form>
 
     <script type="text/javascript">
-        var socket = io('http://10.0.0.221:3000');
+        var socket = io('localhost:3000');
 
         function renderizar(msg) {
             $('.messages').append('<div class="message"><strong>'+ msg.autor +'</strong>: '+ msg.msg +'</div>');
